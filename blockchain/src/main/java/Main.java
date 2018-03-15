@@ -5,6 +5,6 @@ public class Main
     public static void main(String[] args) throws IOException
     {
         OSCheck.updateIPFS();
-		//Samuel69_pussyslayer_69
+		//Kristoffer69_pussyslayer_69
     }
 }
