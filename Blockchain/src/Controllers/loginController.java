@@ -50,7 +50,6 @@ public class loginController implements Initializable {
             preparedStatement.setString(2, password);
             resultSet = preparedStatement.executeQuery();
             if (!resultSet.next()) {
-                //infoBox("Enter Correct Email and Password", "Failed", null);
                 System.out.println("Login Failed");
             } else {
                 System.out.println("Login Successful");
