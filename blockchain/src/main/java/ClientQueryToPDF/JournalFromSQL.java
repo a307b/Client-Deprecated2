@@ -22,7 +22,7 @@ public class JournalFromSQL
     void makeJournal()  {
         try {
             // PDF save location
-            final String DEST = "C:\\Users\\Samuel\\Documents\\Universitetsfiler\\P2\\Journaler\\FremstilletPDF.pdf";
+            final String DEST = "C:\\Journal\\FremstilletPDF.pdf";
 
             // Initialize PDF document
             PdfDocument pdf = new PdfDocument(new PdfWriter(DEST));
